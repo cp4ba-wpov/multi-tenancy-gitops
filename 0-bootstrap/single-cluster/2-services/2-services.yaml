@@ -20,9 +20,9 @@ spec:
     server: https://kubernetes.default.svc
   - namespace: openshift-marketplace
     server: https://kubernetes.default.svc
-  - namespace: ci
+  - namespace: authoring
     server: https://kubernetes.default.svc
-  - namespace: dev
+  - namespace: preprod
     server: https://kubernetes.default.svc
   - namespace: staging
     server: https://kubernetes.default.svc
