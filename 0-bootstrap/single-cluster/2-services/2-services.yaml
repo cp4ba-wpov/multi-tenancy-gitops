@@ -8,7 +8,7 @@ metadata:
 spec:
   sourceRepos: [] # Populated by kustomize patches in 2-services/kustomization.yaml
   destinations:
-  - namespace: tools
+  - namespace: authoring
     server: https://kubernetes.default.svc
   - namespace: ibm-common-services
     server: https://kubernetes.default.svc
@@ -20,11 +20,11 @@ spec:
     server: https://kubernetes.default.svc
   - namespace: openshift-marketplace
     server: https://kubernetes.default.svc
-  - namespace: authoring
+  - namespace: ci
+    server: https://kubernetes.default.svc
+  - namespace: dev
     server: https://kubernetes.default.svc
   - namespace: preprod
-    server: https://kubernetes.default.svc
-  - namespace: staging
     server: https://kubernetes.default.svc
   - namespace: prod
     server: https://kubernetes.default.svc
