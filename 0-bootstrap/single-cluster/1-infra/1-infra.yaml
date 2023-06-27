@@ -8,6 +8,8 @@ metadata:
 spec:
   sourceRepos: [] # Populated by kustomize patches in 1-infra/kustomization.yaml
   destinations:
+  - namespace: ci
+    server: https://kubernetes.default.svc
   - namespace: authoring
     server: https://kubernetes.default.svc
   - namespace: preprod

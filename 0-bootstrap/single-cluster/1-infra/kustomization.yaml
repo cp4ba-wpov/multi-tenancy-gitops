@@ -3,6 +3,7 @@ resources:
 - argocd/consolenotification.yaml
 #- argocd/machine-configuration.yaml
 - argocd/namespace-ibm-common-services.yaml
+- argocd/namespace-ci.yaml
 - argocd/namespace-authoring.yaml
 - argocd/namespace-cp4ba.yaml
 - argocd/namespace-preprod.yaml
