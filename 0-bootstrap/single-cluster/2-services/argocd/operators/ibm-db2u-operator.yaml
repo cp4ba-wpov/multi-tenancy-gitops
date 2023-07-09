@@ -22,7 +22,7 @@ spec:
         ibm-db2u:
           subscriptions:
             subscription:
-              channel: v1.1
+              channel: v1.1.11
               installPlanApproval: Automatic
               name: db2u-operator
               source: ibm-db2uoperator-catalog
